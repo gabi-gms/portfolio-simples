@@ -5,7 +5,7 @@ import { IProjects } from '../../interface/IProjects.interface';
   selector: 'app-projects',
   imports: [],
   templateUrl: './projects.html',
-  styleUrl: './projects.css',
+  styleUrl: './projects.scss',
 })
 export class Projects {
   public arrayProjects = signal<IProjects[]>([
@@ -13,7 +13,7 @@ export class Projects {
       src: '',
       alt: '',
       title: '',
-      with: '',
+      width: '',
       height: '',
       description:
         '<p>Texto.</p>',

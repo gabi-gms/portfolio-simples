@@ -5,7 +5,7 @@ import { IKnowledge } from '../../interface/IKnowledge.interface';
   selector: 'app-knowledge',
   imports: [],
   templateUrl: './knowledge.html',
-  styleUrl: './knowledge.css',
+  styleUrl: './knowledge.scss',
 })
 export class Knowledge {
   public arrayKnowledge = signal<IKnowledge[]>([
