@@ -9,6 +9,6 @@ import { Projects } from '../../components/projects/projects';
   selector: 'app-home',
   imports: [Header, Knowledge, Experiences, Projects],
   templateUrl: './home.html',
-  styleUrl: './home.css',
+  styleUrl: './home.scss',
 })
 export class Home {}

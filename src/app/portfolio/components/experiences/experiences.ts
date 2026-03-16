@@ -5,7 +5,7 @@ import { IExperiences } from '../../interface/IExperiences.interface';
   selector: 'app-experiences',
   imports: [],
   templateUrl: './experiences.html',
-  styleUrl: './experiences.css',
+  styleUrl: './experiences.scss',
 })
 export class Experiences {
   public arrayExperiences = signal<IExperiences[]>([
