@@ -1,0 +1,34 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  transition: 0.5s;
+  cursor: pointer;
+
+  &.btn-primary,
+  &.btn-secondary {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 7px;
+  }
+
+  &.btn-primary {
+    background: var(--primary);
+    color: var(--white-010);
+
+    &:hover {
+      background: var(--primary-010);
+    }
+  }
+
+
+  &.btn-secondary {
+    background: var(--primary-020);
+    color: var(--black);
+
+    &:hover {
+      background: var(--primary-010);
+    }
+  }
+}
