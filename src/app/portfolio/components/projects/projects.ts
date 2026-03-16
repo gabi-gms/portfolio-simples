@@ -21,8 +21,21 @@ export class Projects {
         {
           name: '',
           href: '',
-        },
-      ],
+        }],
+    },
+    {
+      src: '',
+      alt: '',
+      title: '',
+      width: '',
+      height: '',
+      description:
+        '<p>Texto.</p>',
+      links: [
+        {
+          name: '',
+          href: '',
+        }],
     },
   ]);
 }
