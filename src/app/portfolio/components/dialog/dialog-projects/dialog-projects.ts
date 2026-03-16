@@ -6,7 +6,7 @@ import { MAT_DIALOG_DATA, MatDialogModule, MatDialogRef } from '@angular/materia
   selector: 'app-dialog-projects',
   imports: [MatDialogModule],
   templateUrl: './dialog-projects.html',
-  styleUrl: './dialog-projects.css',
+  styleUrl: './dialog-projects.scss',
 })
 export class DialogProjects implements OnInit {
   constructor(
