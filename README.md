@@ -1,59 +1,117 @@
-# PortfolioSimples
+<h1 align="center">
+  <img src="https://vidafullstack.com.br/wp-content/uploads/2020/07/angular.png" alt="" width="150">
+  <br>
+    Portfólio Simples
+  <br>
+  https://troquatte.github.io/curso-angular-portfolio/browser/
+</h1>
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.2.
+# Admin Dashboard – Gestão de Cursos
 
-## Development server
+Aplicação web completa para gestão de cursos online.
+Permite administrar alunos, cursos e progresso dos estudantes através de um dashboard com métricas e gráficos.
 
-To start a local development server, run:
+Este projeto foi desenvolvido para demonstrar arquitetura frontend escalável com **Angular**, integração com **API REST** e boas práticas de componentização.
 
-```bash
-ng serve
+---
+
+## 🚀 Tecnologias utilizadas
+
+**Frontend**
+
+* Angular
+* TypeScript
+* RxJS
+* Angular Material
+* Chart.js
+
+**Backend**
+
+* Node.js
+* Express
+
+**Banco de dados**
+
+* PostgreSQL
+
+**Outras ferramentas**
+
+* Docker
+* JWT Authentication
+* ESLint / Prettier
+
+---
+
+## 📊 Funcionalidades
+
+* Autenticação de usuários (login/logout)
+* Dashboard com métricas de cursos
+* Gestão de alunos
+* Gestão de cursos
+* Filtros e busca
+* Paginação de tabelas
+* Gráficos de progresso
+* Controle de permissões
+
+---
+
+## 🖼️ Screenshots
+
+### Dashboard
+
+![Dashboard](./screenshots/dashboard.png)
+
+### Lista de alunos
+
+![Students](./screenshots/students.png)
+
+### Gestão de cursos
+
+![Courses](./screenshots/courses.png)
+
+---
+
+## 🏗️ Arquitetura do projeto
+
+O frontend segue uma estrutura baseada em **feature modules**, facilitando escalabilidade e manutenção.
+
+```
+src/
+ ├── app/
+ │   ├── portfolio/
+ │   │   ├── components
+ │   │   ├── enum
+ │   |   └── interface
+ │   |   └── pages
+ |
+ |
+ ├── assets/
+ |
+ ├── scss/
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 🧪 Melhorias futuras
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+* Inserção de Projetos
+* Dar/Light mode
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 📌 Objetivo do projeto
 
-```bash
-ng generate --help
-```
+Este projeto foi criado como **projeto de portfólio** para demonstrar:
 
-## Building
+* Conhecimento básico de Angular 
+* Versionamento de Código
+* Conceitos de CSS e HTML
 
-To build the project run:
+---
 
-```bash
-ng build
-```
+## 👩‍💻 Autora
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Gabriella Gomes — Desenvolvedora Frontend
 
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+LinkedIn:
+GitHub:
